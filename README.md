@@ -55,11 +55,6 @@ Git хеширует (преобразует) информацию о комми
 Лог (от англ. log — «журнал [записей]») хранит информацию о коммитах.
 После вызова ```git log``` появляется список коммитов. 
 
-```commit e83c5163316f89bfbde7d9ab23ca2e25604af290
-Author: Linus Torvalds <torvalds@linux-foundation.org>
-Date:   Thu Apr 7 15:13:13 2005 -0700
-    Initial revision of "git", the information manager from hell```.   
-
 Элементы, из которых состоит описание:
 - строка из цифр и латинских букв после слова *commit* — это хеш коммита;
 - *Author* — имя автора и его электронная почта;
